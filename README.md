@@ -1,14 +1,22 @@
-# Site Kit by Google
+# WiFi Lab Command Center
 
-Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.
+This repository has been repurposed into a Wi‑Fi testing app concept built on the existing React/Storybook stack.
 
-Learn more: [https://sitekit.withgoogle.com](https://sitekit.withgoogle.com)
+## What the app covers
 
-## Contributing
+- Coverage surveys with RSSI/SNR-oriented validation flows.
+- Throughput benchmarking with latency and packet-loss context.
+- Roaming validation for sticky clients and voice-ready handoff checks.
+- Spectrum diagnostics for interference and channel utilization review.
+- Access point inventory, incident feed, and live test queue monitoring.
 
-Any kind of contribution to Site Kit by Google is welcome. Head over to the [Contributor Handbook](https://github.com/google/site-kit-wp/wiki) to get started, or directly to the [Engineering set up quickstart](https://github.com/google/site-kit-wp/wiki/Engineering#set-up-site-kit-project) to set up Site Kit locally. :wink:
+## Main demo entry point
 
-## Requirements
+Run Storybook and open the **WiFi Lab / Command Center** story to explore the full dashboard experience.
 
-* WordPress >= 5.2
-* PHP >= 7.4
+## Development
+
+```bash
+npm install
+npm run storybook
+```
